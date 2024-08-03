@@ -1,0 +1,43 @@
+.header_chat{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.header_chat h1{
+    color: rgb(53, 51, 51);
+    font-size: 22px;
+}
+
+.header_chat2{
+    gap: 20px;
+}
+
+.header_chat2 input{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+
+.icons_chatscreen{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    gap: 20px;
+}
+
+.contenedor_header_contacto{
+    width: 100%;
+    height: 10%;
+    background-color: #FAFAFA;
+    padding: 20px 24px;
+    height: auto;
+}

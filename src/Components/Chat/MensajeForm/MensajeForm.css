@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+i{
+    color: #8696A0;
+}
+
+
+
+.message-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(221, 221, 221);
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+.message-hub{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.message-input{
+    width: 80%;
+    height: 2em;
+    background-color: rgb(192, 190, 190);
+    border: none;
+    border-radius: 10px;
+}
+
+.message-input::placeholder {
+    padding-left: 20px;
+    color: white;
+}
+
+
+.message-section .message-hub .message-input{
+    margin: 8.5px 0;
+    padding: 0 10px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: #2A3942;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+div .icon_input{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.cam_mic{
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+i{
+    color: white;
+}
+
+

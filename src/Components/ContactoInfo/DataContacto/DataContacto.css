@@ -1,0 +1,151 @@
+p {
+    color: black;
+}
+
+.contenedor_contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 22px;
+
+}
+
+.contenedor_botones {
+    width: 100%;
+}
+
+
+.info_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 0 24px;
+
+}
+
+.info_principal h1 {
+    color: black;
+}
+
+
+.info_principal img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 6%;
+}
+
+.interaccion_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 75px;
+    width: 120px;
+    margin: auto;
+    gap: 8px;
+    padding: px;
+    border-radius: 12px;
+
+}
+
+.interaccion_contacto p {
+    color: black;
+
+}
+
+i {
+    color: rgb(12, 143, 30);
+
+}
+
+.contenedor_interaccion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contacto_estado {
+    width: 100%;
+    margin: 0px 22px;
+    background-color: white;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.div1_titulo {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.contenedor_divs {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+    gap: 4px;
+    margin-top: 10px;
+    padding: 10px 0px;
+
+}
+
+.info_contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 12px;
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .contenedor_contactos {
+        flex-direction: row;
+        align-items: center;
+        padding: 0 22px;
+        gap: 40px;
+        height: 60vh;
+        justify-content: center;
+
+    }
+
+    .contenedor_divs {
+        margin-bottom: 40px;
+
+    }
+
+    .contenedor_botones{
+        width: 500px;
+    }
+
+}

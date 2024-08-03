@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.fonts{
+    color: black;
+    font-size: 15px;
+}
+
+.yo{
+    display: flex;
+    justify-content: end;
+}
+
+.pepe{
+    display: flex;
+    justify-content: start;
+}
+
+.burbuja{
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px 7px;
+    margin: 10px 10px;
+}
+.burbuja{
+    background-color: aliceblue; 
+}
+
+.yo .burbuja{
+    background-color: #D6EABF;
+}
+
+.burbuja .persona{
+    color: mediumblue;
+    font-weight: 600;
+}
+
+.burbuja .texto{
+    color: black;
+    padding-top: 5px;
+}
+
+.info_persona{
+    margin: 10px 10px;
+}
+
+
+
+.datos_mensaje{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    color: black;
+}
+
+.day-hour{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color:  rgb(75, 75, 75);
+}
+
+.state{
+    color: cadetblue;
+}

@@ -1,0 +1,104 @@
+[
+    {
+        "nombre": "Leonardo di caprio",
+        "thumbnail": "/imgs/dicaprio.jpg",
+        "telefono": "11 4328 3849",
+        "ultima_conexion": "ayer",
+        "id": 1,
+        "mensajes": [
+            {
+                "author": "Leonardo di caprio",
+                "text": "Haciendo una peli ",
+                "estado": "visto",
+                "day": "hoy",
+                "hour": "13:15",
+                "id": "1"
+            }
+        ]
+    },
+    {
+        "nombre": "Britney Spears",
+        "id": 2,
+        "thumbnail": "/imgs/britney.jpg",
+        "telefono": "11 3829 5864",
+        "ultima_conexion": "ayer",
+        "mensajes": [
+            {
+                "author": "Britney Spears",
+                "text": "Soy britney hey",
+                "estado": "entregado",
+                "day": "ayer",
+                "hour": "13:20",
+                "id": "2"
+            }
+        ]
+    },
+    {
+        "nombre": "Travis Scott",
+        "id": 3,
+        "thumbnail": "/imgs/travis.jpg",
+        "telefono": "11 8945 2245",
+        "ultima_conexion": "ayer",
+        "mensajes": [
+            {
+                "author": "Travis Scott",
+                "text": "Preparate para la circus",
+                "estado": "visto",
+                "day": "hoy",
+                "hour": "13:15",
+                "id": "3"
+            }
+        ]
+    },
+    {
+        "nombre": "Zendaya",
+        "id": 3,
+        "thumbnail": "/imgs/zendaya.jpg",
+        "telefono": "11 4821 5964",
+        "ultima_conexion": "ayer",
+        "mensajes": [
+            {
+                "author": "Zendaya",
+                "text": "Euphoria is coming",
+                "estado": "visto",
+                "day": "hoy",
+                "hour": "13:15",
+                "id": "3"
+            }
+        ]
+    },
+    {
+        "nombre": "Timothe",
+        "id": 3,
+        "thumbnail": "/imgs/Timothe.jpg",
+        "telefono": "11 7896 1234",
+        "ultima_conexion": "ayer",
+        "mensajes": [
+            {
+                "author": "Timothe",
+                "text": "soy Timothe hola",
+                "estado": "visto",
+                "day": "hoy",
+                "hour": "13:15",
+                "id": "3"
+            }
+        ]
+    },{
+        "nombre": "Gato Piola",
+        "id": 3,
+        "thumbnail": "/imgs/gatito.jpg",
+        "telefono": "11 4328 3849",
+        "ultima_conexion": "ayer",
+        "mensajes": [
+            {
+                "author": "Gato Piola",
+                "text": "soy un gato copado",
+                "estado": "visto",
+                "day": "hoy",
+                "hour": "13:15",
+                "id": "3"
+            }
+        ]
+    }
+    
+]

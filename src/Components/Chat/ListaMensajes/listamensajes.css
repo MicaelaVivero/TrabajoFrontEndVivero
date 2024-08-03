@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.lista_mensaje{
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ajusta según sea necesario */
+    overflow-y: auto;
+}

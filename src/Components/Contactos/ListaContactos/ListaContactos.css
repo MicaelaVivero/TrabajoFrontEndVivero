@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.lista_contacto{
+    padding: 30px 24px;     /* Altura del contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    overflow-y: auto;   /* Desplazamiento vertical */
+    padding: 10px 24px; 
+}
+
+.lista_contacto h1{
+    padding-bottom: 6px;
+}

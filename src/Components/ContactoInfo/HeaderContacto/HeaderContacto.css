@@ -1,0 +1,23 @@
+.footer_header_contacto{
+    background-color: rgb(221, 221, 221);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.footer_header_contacto h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.footer_header_contacto button{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(75, 75, 75);
+    background-color: transparent;
+        border: none;
+}
